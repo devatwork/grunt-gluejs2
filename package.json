@@ -4,7 +4,7 @@
     "email": "b.willems@premotion.nl"
   },
   "bugs": {
-    "url": "https://github.com/devatwork/grunt-contrib-gluejs2/issues"
+    "url": "https://github.com/devatwork/grunt-gluejs2/issues"
   },
   "dependencies": {
     "gluejs": "~2.2.0"
@@ -22,7 +22,7 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "homepage": "https://github.com/devatwork/grunt-contrib-gluejs2",
+  "homepage": "https://github.com/devatwork/grunt-gluejs2",
   "keywords": [
     "gluejs",
     "gruntplugin",
@@ -35,19 +35,19 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/devatwork/grunt-contrib-gluejs2/blob/master/LICENSE"
+      "url": "https://github.com/devatwork/grunt-gluejs2/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
-  "name": "grunt-contrib-gluejs2",
+  "name": "grunt-gluejs2",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/devatwork/grunt-contrib-gluejs2.git"
+    "url": "git://github.com/devatwork/grunt-gluejs2.git"
   },
   "scripts": {
     "test": "grunt check-code",
     "prepublish": "npm prune"
   },
-  "version": "0.1.2"
+  "version": "0.0.1"
 }
