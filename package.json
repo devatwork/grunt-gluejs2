@@ -16,7 +16,8 @@
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-mocha-test": "~0.8.1",
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "grunt-release": "~0.6.0"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -46,5 +47,5 @@
     "test": "grunt check-code",
     "prepublish": "npm prune"
   },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
