@@ -1,4 +1,4 @@
-# grunt-contrib-gluejs2 
+# grunt-contrib-gluejs2 [![Build Status](https://travis-ci.org/devatwork/grunt-contrib-gluejs2.png?branch=master)](https://travis-ci.org/devatwork/grunt-contrib-gluejs2)
 
 > A Grunt plugin for [GlueJS](http://mixu.net/gluejs/) v2.2+.
 
@@ -41,13 +41,13 @@ Please consult the documentation of GlueJS for details about all available optio
 
 #### options.banner
 
-Type `String` Default value ``
+Type `String` Default value `''`
 
 The text to use as a banner. Templated strings are perfectly acceptable and encouraged.
 
 #### options.footer
 
-Type `String` Default value ``
+Type `String` Default value `''`
 
 The text to use as a footer. Templated strings are perfectly acceptable and encouraged.
 
