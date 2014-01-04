@@ -80,7 +80,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Copyright
 
-Copyright (c) 2013 Bert Willems and contributors.
+Copyright (c) 2014 Bert Willems and contributors.
 
 ## License
 
