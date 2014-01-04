@@ -25,10 +25,12 @@
   "homepage": "https://github.com/devatwork/grunt-contrib-gluejs2",
   "keywords": [
     "gluejs",
-    "grunt",
-    "task",
+    "gruntplugin",
     "commonjs",
-    "browserify"
+    "browserify",
+    "require",
+    "packager",
+    "bundler"
   ],
   "licenses": [
     {
