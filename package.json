@@ -6,14 +6,17 @@
   "bugs": {
     "url": "https://github.com/devatwork/grunt-contrib-gluejs2/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gluejs": "~2.2.0"
+  },
   "description": "A Grunt plugin for GlueJS v2+.",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-mocha-test": "~0.8.1"
+    "grunt-mocha-test": "~0.8.1",
+    "should": "~2.1.1"
   },
   "engines": {
     "node": ">= 0.8.0"
