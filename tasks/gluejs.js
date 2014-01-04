@@ -1,15 +1,12 @@
 /*jslint node: true*/
 "use strict";
 
-module.exports = function(grunt) {
-	var _ = grunt.util._,
-		Glue = require('gluejs'),
-		fs = require('fs'),
-		path = require('path');
+var Glue = require('gluejs'),
+	path = require('path');
 
+module.exports = function(grunt) {
 	// Use multitask because multiple targets are supported
-	// Please see the Grunt documentation for more information regarding task creation: http://gruntjs.com/creating-tasks
-	grunt.registerMultiTask('gluejs', 'Grunt plugin for GlueJS v2+', function() {
+	grunt.registerMultiTask('gluejs', 'Grunt plugin for GlueJS v2.2+', function() {
 		var options = this.options(),
 			done = this.async(),
 			base = process.cwd();
