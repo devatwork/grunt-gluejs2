@@ -1,6 +1,6 @@
 # grunt-contrib-gluejs2 
 
-A Grunt plugin for [GlueJS](http://mixu.net/gluejs/) v2.2+.
+> A Grunt plugin for [GlueJS](http://mixu.net/gluejs/) v2.2+.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -38,6 +38,18 @@ grunt.initConfig({
 ### Options
 
 Please consult the documentation of GlueJS for details about all available options at [http://mixu.net/gluejs/](http://mixu.net/gluejs/#api_usage_example). This plugin supports all options of version 2.2.
+
+#### options.banner
+
+Type `String` Default value ``
+
+The text to use as a banner. Templated strings are perfectly acceptable and encouraged.
+
+#### options.footer
+
+Type `String` Default value ``
+
+The text to use as a footer. Templated strings are perfectly acceptable and encouraged.
 
 ### Usage examples
 

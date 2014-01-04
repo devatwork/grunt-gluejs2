@@ -11,6 +11,10 @@ module.exports = function(grunt) {
 			done = this.async(),
 			base = process.cwd();
 
+		// processes banner and footer.
+		var banner = options.banner ? grunt.template.process(options.banner) : '';
+		var footer = options.footer ? grunt.template.process(options.footer) : '';
+
 		// Iterate over all specified file groups.
 		this.files.forEach(function(file) {
 			var glue = new Glue();
@@ -98,6 +102,7 @@ module.exports = function(grunt) {
 					grunt.event.emit('gluejs.fail');
 					done(false);
 				} else {
+					output = banner + output + footer;
 					grunt.file.write(file.dest, output);
 					grunt.event.emit('gluejs.done');
 					grunt.log.ok();
