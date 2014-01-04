@@ -1,0 +1,47 @@
+{
+  "author": {
+    "name": "Bert Willems",
+    "email": "b.willems@premotion.nl"
+  },
+  "bugs": {
+    "url": "https://github.com/devatwork/grunt-contrib-gluejs2/issues"
+  },
+  "dependencies": {},
+  "description": "A Grunt plugin for GlueJS v2+.",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.8.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "homepage": "https://github.com/devatwork/grunt-contrib-gluejs2",
+  "keywords": [
+    "gluejs",
+    "grunt",
+    "task",
+    "commonjs",
+    "browserify"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/devatwork/grunt-contrib-gluejs2/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "name": "grunt-contrib-gluejs2",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devatwork/grunt-contrib-gluejs2.git"
+  },
+  "scripts": {
+    "test": "grunt check-code",
+    "prepublish": "npm prune"
+  },
+  "version": "0.0.1"
+}
