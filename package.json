@@ -9,7 +9,7 @@
   "dependencies": {
     "gluejs": "~2.2.0"
   },
-  "description": "A Grunt plugin for GlueJS v2+.",
+  "description": "A Grunt plugin for GlueJS v2.2+.",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
