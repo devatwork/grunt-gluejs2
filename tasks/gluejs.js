@@ -67,7 +67,7 @@ module.exports = function(grunt) {
 			if (options['cache-method']) {
 				glue.set('cache-method', options['cache-method']);
 			}
-			if (options.cache) {
+			if (typeof options.cache !== 'undefined') {
 				glue.set('cache', options.cache);
 			}
 			if (!!options.globalRequire) {
