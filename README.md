@@ -73,6 +73,7 @@ grunt.initConfig({
 
 ## Release History
 
+* 2014-02-15   v0.3.0   Fixed cache option.
 * 2014-01-04   v0.2.0   Fixed invalid versioning.
 * 2014-01-04   v0.1.0   Initial NPM release.
 * 2014-01-04   v0.0.1   Initial release.
