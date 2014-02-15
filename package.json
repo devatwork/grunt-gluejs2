@@ -49,5 +49,5 @@
     "test": "grunt check-code",
     "prepublish": "npm prune"
   },
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
